@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Swap our for actual link-->
+        <link rel="canonical" href="https://www.website.com/">
+
+        <meta name="description" content="Meta description for the page">
+        <meta name="keywords" content="">
+
+        <!--Social Media Display-->
+        <meta property="og:title" content="Find The Best PEO"/>
+        <meta property="og:description" content="Meta description for the page"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.website.com/"/>
+        <meta property="og:image" content="/images/social.jpg"/>
+        <meta property="og:image:secure_url" content="/images/social.jpg"/>
+
+        <!--Favicons-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png?v1">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicons/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Preload -->
+        <link rel="preload" as="image" href="/assets/images/PEO-360-logo.svg">
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
+        
+        <link rel="stylesheet" href="/css/root.css">
+        <link rel="stylesheet" href="/css/dark.css">
+
+        <link rel="preload" as="image" href="assets/images/mainbackground.jpg"/>
+
+        <!-- Loading in page specific CSS sheets from css block -->
+        <link rel="stylesheet" href="/css/critical.css"/>
+        <link rel="stylesheet" href="/css/local.css">
+
+        <!--Put analytics tag here at the bottom to prevent it from render blocking-->
+
+        <!-- For home page, use full title, including location for SEO. Other pages should just include the page name -->
+        <title>
+            
+                PEO360 | Find The Best PEO | Austin, TX
+            
+        </title>
+    </head>
+    <body>
+        <!--Screen reader skip main nav-->
+        <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+        <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+
+<div id="navigation">
+    <div aria-hidden="true" class="background-color-div">
+        <!--This div is used to overcome a z-index issue where the open
+            #navbar-menu is on top of the #navigation. This bar places itself 
+            the #navbar-menu so that menu appears behind the #navigation
+        -->
+    </div>
+    <div class="container">
+        <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
+        <a class="logo" aria-label="click to go to home page" href="/">
+            <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
+            <img class="light" aria-hidden="true" src="/assets/images/PEO-360-logo.svg" decoding="async" alt="logo" width="221" height="66">
+
+            <!--Dark Colored Logo-->
+            <img class="dark" aria-hidden="true" src="/assets/images/PEO-360-logo.svg" decoding="async" loading="lazy" alt="logo" width="221" height="66">
+        </a>
+
+        <!--Mobile Nav toggle-->
+        <button class="hamburger-menu" aria-expanded="false" aria-controls="navbar-menu">
+            <span class="visually-hidden">Menu</span>
+            <span aria-hidden="true"></span>
+        </button>
+
+        <!--Main Nav-->
+        <nav id="navbar-menu" aria-label="main navigation">
+            <ul>
+                    <li>
+                        <a 
+                         class="active" 
+                        href="/"
+                    >
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                        
+                        href="/howwehelp/"
+                    >
+                            How We Help
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                        
+                        href="/whyusepeo/"
+                    >
+                            Why Use A PEO?
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                        
+                        href="/pricing/"
+                    >
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                        
+                        href="/VC and PE/"
+                    >
+                            VC and PE
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                        
+                        href="/blog/"
+                    >
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                        
+                        href="/contact/"
+                    >
+                            Get Your PEO Review
+                        </a>
+                    </li>
+            </ul>
+        </nav>
+
+        <!--Dark Mode toggle-->
+        <button id="dark-mode-toggle">
+            <!--Moon is an inline SVG so you can edit the color if needed-->
+            <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="sun" aria-hidden="true" src="/assets/svgs/sun.svg" decoding="async" alt="sun" width="15" height="15">
+        </button>
+    </div>
+</div>
+        <main id="main"><!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+  <div class="cs-container">    
+    <div class="cs-flex-group">
+      <span class="cs-topper">PEO360</span>
+      <h1 class="cs-title">Do you have the right PEO for you?</h1>
+      <p class="cs-text">
+        We help strategic thinkers find the best PEO for their company and help pave the way for future years of growth and success.
+      </p>
+      <a href="/howwehelp" class="cs-button-solid">        
+        See How It Works</a>
+      <a href="/whyusepeo" class="cs-button-solid">        
+        Why Use A PEO?</a>     
+        
+          <p class="cs-text cs-text-fold">
+            <a class="cs-text"href="vcandpe" style="text-decoration: none">
+            Are you in Venture Capital or Private Equity? Learn how we can impact your portfolio companies' profitability.
+            </a>
+          </p>
+          
+    </div>
+  </div>
+</div>
+
+  <!-- Background Image -->
+  
+  <picture class="cs-picture">
+      <source type="image/webp" srcset="/images/mainbackground-200w.webp 200w, /images/mainbackground-400w.webp 400w, /images/mainbackground-850w.webp 850w, /images/mainbackground-1920w.webp 1920w" sizes="(max-width: 400px) 400px, (max-width: 850px) 850px, 3000px">
+  <source type="image/jpeg" srcset="/images/mainbackground-200w.jpeg 200w, /images/mainbackground-400w.jpeg 400w, /images/mainbackground-850w.jpeg 850w, /images/mainbackground-1920w.jpeg 1920w" sizes="(max-width: 400px) 400px, (max-width: 850px) 850px, 3000px">
+      <img
+        src="/images/mainbackground-200w.jpeg"
+        width="1920"
+        height="1279"
+        alt="mountains"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+
+
+<section id="services" class="services">
+  <!-- Get Icons From flaticon.com -->  
+  
+  <div class="cs-text-under-fold">
+    <h2>98% of PEO users</h2>
+    <h3>Would recommend using a PEO to their colleagues</h3>
+    <p>But customers often find the process of choosing the right fit PEO to be complex and opaque, leading to overpaying for services. We help clients choose their first PEO or get better terms with their current PEO. Did you know you can negotiate with your current PEO at any time to get better terms?</p>
+  </div>
+
+  <div class="cs-services">
+    <span class="cs-services-topper">PEO FEATURES</span>
+    <h2>Why Successful Businesses Work With PEOs</h2>
+  </div>
+  <div class='card'>
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/hands.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Better Benefits</h2>
+    <p>A great PEO can help lower your benefits cost, which will save you money and your employees money. This can mean better health insurance as well as other benefits like 401k, vision, dental, and other benefits.</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/best-employee.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>HR Administration & Support</h2>
+    <p>Leveraging a PEO team can allow your Executive Team or existing HR team to delegate hiring/firing, benefits administration, and lots of other tasks.</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/risk-management.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Risk and Compliance</h2>
+    <p>The minute you hire an employee, your risk exposure has increased. The average cost of employment related litigation is over $160k and 25% of lawsuits are more than $500k.</p>  
+</div>
+
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/salary.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Payroll</h2>
+    <p>Implement payroll in a timely, effective, and secure manner for any team size without adding staff.</p>
+  </div>
+  <div class="card">
+    <picture>
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/svgs/laptop.svg"
+        alt="appliance"
+        width="48"
+        height="48"
+/>
+    </picture>
+    <h2>Technology</h2>
+    <p>Leverage the power of a human information system (HRIS) - technology built for your Executive Team and Employees to access and utilize their benefits.</p>
+</div>
+    <div class="cs-services">
+      <span class="cs-services-topper">WHY USE PEO</span>
+      <h2>PEO Benefits</h2>
+    </div>
+
+
+    <div class="card1">
+      <picture>
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/svgs/people.svg"
+          alt="appliance"
+          width="60"
+          height="60"
+  />
+      </picture>
+      <p>Using a PEO will decrease employee turnover by 10-14%</p>
+      </div>
+
+      <div class="card1">
+        <picture>
+          <img
+            aria-hidden="true"
+            decoding="async"
+            src="/assets/svgs/money-icon.svg"
+            alt="appliance"
+            width="60"
+            height="60"
+    />
+        </picture>
+        <p>Small-to-medium businesses using a PEO had double the annual median revenue growth compared to companies not using a PEO</p>
+        </div>
+        <div class="card1">
+          <picture>
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/svgs/mans-icon.svg"
+              alt="appliance"
+              width="60"
+              height="60"
+      />
+          </picture>
+          <p>68% of small-to-medium businesses that utilize a PEO are more successful than their counterparts</p>
+          </div>
+    </section>
+  
+  
+    <section id="sbs">
+      <div class="cs-container">    
+        <div class="cs-flex-group">
+          <p class="cs-text-mid">
+            It's no surprise that most people using a PEO recommend it - there's a lot of value on the table. But PEOs are not all equal and choosing the right one will affect how they serve in these five pillars of value and how much it costs.
+          </p>
+          <div class="mid-btns">
+          <a href="/about" class="button-solid">Find out if a PEO is right for you</a>
+          <a href="/about" class="button-solid">Is your current PEO underwhelming?</a>
+        </div>
+        
+            <img
+              class="cs-quote-icon"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+              alt="gavel"
+              width="136"
+              height="77"
+    />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>   
+      <div class="services-card">
+        <div class="card-title">
+          <h2>HOW DOES IT WORK</h2>
+          <h3>OUR PROCESS</h3>      
+        </div>  
+
+      <div class="card1">
+        <picture>
+          <img aria-hidden="true" decoding="async" src="/assets/svgs/discover-call-active.svg" width="48" height="48" />
+        </picture>
+        <h6>Discovery & Request for Proposals</h6>
+        <p>Guided expertise to source the right PEOs for you</p>
+      </div>
+      <div class="card1">
+        <picture>
+          <img aria-hidden="true" decoding="async" src="/assets/svgs/no-peo-active.svg" width="48" height="48" />
+        </picture>
+        <h6>Analysis & Recommendations</h6>
+        <p>Full financial and benefits analyses for multiple high quality PEOs</p>
+      </div>
+      <div class="card1">
+        <picture>
+          <img aria-hidden="true" decoding="async" src="/assets/svgs/new-peo-active.svg" width="48" height="48" />
+        </picture>
+        <h6>Best Choice & Preferred Pricing</h6>
+        <p>We negotiate preferred pricing & pass the savings to you</p>
+      </div>
+      </div>
+    </section>
+
+  <div class="services-container">
+    <div class="cs-container">
+      <div class="cs-text-mid">
+        <h2>Everything, start to finish, comes at zero cost to you.</h2>
+        <p class="cs-text-mid"> Regardless of where you're at in your PEO Journey, we're confident we can help. With a short call, we can start working for you at no cost.</p>      
+      </div>
+      <div class="mid-btns">
+          <a href="/about"  class="button-solid">How can it cost nothing?</a>
+          <a href="/about"  class="button-solid" >We do the work, let us get started</a>
+        </div>
+    </div>
+  </div>
+    
+
+    </section>
+  
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window
+      .netlifyIdentity
+      .on('init', (user) => {
+        if (!user) {
+          window
+            .netlifyIdentity
+            .on('login', () => {
+              document.location.href = '/admin/';
+            });
+        }
+      });
+  }
+</script></main>
+        <!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="footer">
+    <div class="container">
+        <div class="left-section">
+            <a class="logo" href="/"><img loading="lazy" decoding="async" src="/assets/images/PEO-360-logo.svg" alt="logo" width="264" height="78"></a>
+            
+        </div>
+        <div class="right-section">
+            <div class="lists">
+                <ul>
+                    <li>
+                        <h2>Information</h2>
+                    </li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/testimonials">Reviews</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>Services</h2>
+                    </li>
+                    <li>Service1</li>
+                    <li>Service2</li>
+                    <li>Service4</li>
+                    <li>Service5</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>Contact</h2>
+                    </li>
+                    <li>
+                        <a href="/contact">123 Main<br>Cedar Park, TX 78613</a>
+                    </li>
+                    <li>
+                        <a href="tel:555-555-5555">T: (555) 555-5555</a>
+                    </li>
+                    <li>
+                        <a href="mailto:jeff@peo360email.com">Click to Email</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <span>Designed and Hand Coded by</span>
+        <a href="" target="_blank" rel="noopener">Bill</a>
+        <span class="copyright"> Copyright 2023</span>
+    </div>
+</footer>
+
+        <script defer src="/assets/js/nav.js"></script>
+        <script defer src="/assets/js/dark.js"></script>
+
+        <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+        <script defer>
+            document.addEventListener('scroll', (e) => {
+                const scroll = document.documentElement.scrollTop;
+                if (scroll >= 100) {
+                    document
+                        .querySelector('body')
+                        .classList
+                        .add('scroll')
+                } else {
+                    document
+                        .querySelector('body')
+                        .classList
+                        .remove('scroll')
+                }
+            });
+        </script>
+
+    </body>
+</html>

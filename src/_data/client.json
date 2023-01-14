@@ -1,0 +1,15 @@
+{
+  "name": "PEO360",
+  "email": "hello@oakharbor.com",
+  "phone": "512-850-8962",
+  "phoneFormatted": "(512) 850-8962",
+  "address": {
+    "lineOne": "First Address Line",
+    "lineTwo": "Second Address Line, If Needed",
+    "city": "Austin",
+    "county": "TX",
+    "postcode": "78631",
+    "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+  },
+  "domain": "www.website.com"
+}
