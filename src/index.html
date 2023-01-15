@@ -40,7 +40,8 @@ eleventyNavigation:
 </div>
 
   <!-- Background Image -->
-  <img class="cs-picture" src="src/assets/images/mainbackground.jpg">
+  
+  {% image './src/images/mainbackground.jpg', 'cs-picture', 'eager' '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
 
 <!-- ============================================ -->
