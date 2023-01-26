@@ -331,7 +331,6 @@
     box-shadow: 2px 2px 2px var(--primary);
     margin: 2rem;
     padding: 1rem 1rem;
-    position: relative;
   }
   .services .cs-text-under-fold h2{
     text-align: center;
