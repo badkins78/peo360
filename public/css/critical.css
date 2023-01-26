@@ -322,14 +322,16 @@
     line-height: 1.33333333em;
     width: 100%;
     opacity: .7;
+    margin: auto;
   }
   .services .cs-text-under-fold {
-    width: 100%;
+    width: 90%;
     text-align: center;
     border: 1px solid #a09b9b;
     border-radius: 4px;
     box-shadow: 2px 2px 2px var(--primary);
-    margin: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
     padding: 1rem 1rem;
   }
   .services .cs-text-under-fold h2{
@@ -346,19 +348,21 @@
     line-height: 1.35em;
     font-weight: 700;    
     margin-bottom: 1rem;
+    margin: auto;
   }
   .services .cs-services {
     width:100%;
     text-align: center;
-    margin: 2rem;
+    margin: auto;
+    position: relative;
   } 
   .services .cs-services-topper{
     font-size: 2em;
     line-height: 1.25em;
-    margin-bottom: 1rem;
+    margin: auto;
   }
   .services .cs-services h2{
-    margin-top: 1em
+    margin: 50px;
   }
   .services .card1 {
     display: block;
